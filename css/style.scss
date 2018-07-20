@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+$font-main: "Lato", sans-serif;
+$primary-color1: rgb(0, 58, 102);
+$text-color: rgb(68, 68, 68)
+
+/* Reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 12.5% auto auto auto 12.5%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header header"
+    "what what what what what"
+    "projects projects projects projects projects"
+    "contact contact contact contact contact"
+    "footer footer footer footer footer";
+  font-family: $font-main;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $text-color;
+  overflow-x: hidden;
+}
