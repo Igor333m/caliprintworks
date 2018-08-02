@@ -82,3 +82,15 @@ a {
 .menu ul li:hover a {
 	color: white;
 }
+
+.welcome {
+	grid-area: welcome;
+	max-height: 40vh;
+	overflow: hidden;
+	background-color: black;
+}
+
+video {
+  width: 100%;
+
+}
